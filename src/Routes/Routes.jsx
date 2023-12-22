@@ -52,7 +52,7 @@ import UpdateTask from "../pages/DashBoard/UpdateTask";
             {
                 path: 'updateTask/:id',
                 element: <UpdateTask></UpdateTask>,
-                loader: ({params}) => fetch(`http://localhost:5000/toDo/${params.id}`)
+                loader: ({params}) => fetch(` https://task-manager-server-theta-one.vercel.app/toDo/${params.id}`)
               },
         ]
     }

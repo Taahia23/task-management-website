@@ -24,7 +24,7 @@ const Profile = () => {
 
             </h2>
             <div className="text-center ">
-                <h1 className="text-2xl"> <span className="text-blue-800"> Your Role: </span>Admin</h1>
+                <h1 className="text-2xl"> <span className="text-blue-800"> Your Role: </span>User</h1>
             </div>
         </div>
     );

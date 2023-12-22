@@ -8,7 +8,7 @@ const useTodo = () => {
 
 
     useEffect(() => {
-        fetch('http://localhost:5000/toDo')
+        fetch('https://task-manager-server-theta-one.vercel.app/toDo')
             .then(res => res.json())
             .then(data => {
                 setToDo(data);
